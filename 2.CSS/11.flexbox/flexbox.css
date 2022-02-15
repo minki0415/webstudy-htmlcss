@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    /* flex-direction: column; 행방향 출력*/
+    /* flex-direction: column-reverse; 행방향 출력, 순서 역순*/
+    /* flex-direction: row; 열방향 출력*/
+    /* flex-direction: row-reverse; 열방향 출력, 순서 역순*/
+    /* flex-wrap: wrap; 페이지 줄어도 박스안에 감싸서 출력 */
+    /* flex-wrap: nowrap; 박스 벗어나도 그대로 출력*/
+    /* flex-wrap: wrap-reverse; 박스안에 감싸서 출력, 자동줄바꿈, 순서출력 역순  */
+    /* flex-flow: row wrap; 자동 줄바꿈, 박스안에 출력 */
+    /* justify-content: center; 가운데 정렬 */
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }

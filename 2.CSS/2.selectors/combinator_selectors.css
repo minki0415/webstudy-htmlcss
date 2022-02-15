@@ -1,0 +1,46 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+span{
+    color: seagreen;
+}
+
+/* 자손선택자 */
+.descendent-selector p{
+    font-size: 25px;
+    color: sienna;
+}
+
+/* 자식 선택자 */
+.child-selector>p{
+    font-size: 30px;
+    color: steelblue;
+}
+
+.child-selector>.nested-div{
+    border: 2px dashed teal;
+}
+
+/* 인접 형제(자매) 선택자*/
+/* div와 인접한 p태그에 적용하는 스타일 */
+div+p{
+    font-size: 30px;
+    color: turquoise;
+}
+
+.Adjacent-sibling-selector + p{
+    font-size: 40px;
+    color: darkgreen;
+}
+
+/* 일반 형제(자매) 선택자 */
+.general-sibling-selector~p{
+    font-size: 30px;
+    color: darkblue;
+}
+
+div ~ p {
+    font-size: 30px;
+    color: red;
+}

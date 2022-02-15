@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head, 페이지 상단 부분, ex) 제목, 검색창 등등 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="mindspace studio main page">
+    <meta name="author" content="Minki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindspace studio main</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Mindspace studio</h1>
+            <!-- nav 태그는 다른 페이지 또는 현재 페이지의 다른 부분과 연결되는 
+                navigation link들의 집합을 정의할 때 사용
+             -->
+            <nav>
+                <!-- ul>il*3>a -->
+                <ul> <!-- ul : Unordered List-->
+                    <li><a href="home.html">History</a></li>
+                    <li><a href="home.html">Gallery</a></li>
+                    <li><a href="home.html">Game</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 구역을 나누는 태그, 유사한 내용을 하나로 묶어주는 역할 -->
+        <section>
+            <!-- article : 기사영역, 본문이 들어가는 영역 -->
+            <article>
+                <!-- lolem10 : dummy text 생성-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, distinctio.</p>
+
+                <p>Menu</p>
+                <ol>
+                    <li>아이스 아메리카노</li>
+                    <li>카페라떼</li>
+                    <li>카페모카</li>
+                    <li>카라멜 마끼야또</li>
+                </ol>
+                <figure><!-- alt : alternative, 대체가능한 이미지 설명 작성 -->
+                    <img src="mindspace-studio.jpg" alt="Mindspce studio room">
+                    <figcaption>Mindspace studio room</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h2>메뉴 제안</h2>
+                <form action="">
+                    <label for="menu-name">메뉴 이름 :</label>
+                    <input type="text" name="menuName" id="menu-name"><br><br>
+                    <label for="menu-desc">메뉴 설명 :</label>
+                    <input type="text" name="menuDesc" id="menu-desc"><br><br>
+                    <label for="user-email">E-mail :</label>
+                    <input type="email" name="userEmail" id="user-email"><br><br>
+                    <label for="user-password">Password :</label>
+                    <input type="password" name="userPassword" id="user-password"><br><br>
+                    <button type="submit" >등록</button>
+                    <button type="reset">취소</button>
+                </form>
+                </form>
+            </article><br><br>
+            <aside>
+                <!-- 페이지의 사이드 영역 : ex) 광고 영역 -->
+                <p>광고, 다이나핏 다운패딩 '2월' 특가 60% 119,000원</p>
+            </aside>
+        </section>
+    </main><br><br><!-- semantic tag -->
+    <!-- footer 주로 문서 하단에 위치하며 주로 작성자, copyright, 관련문서 링크 등의 정보를 담는 영역 -->
+    <footer>
+        <p>1. 주소 : 서울 강남구 어디로 200-1</p>
+        <p>2. 연락처 : 02-229-3939</p>
+    </footer>
+</body>
+</html>

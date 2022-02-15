@@ -1,0 +1,39 @@
+img{
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+    border: 2px dashed black;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 16px 0 rgba(80, 117, 225, 0.4);   
+}
+
+/* 영역 삭제 */
+.card:nth-child(1) {
+    /* display: none; */
+}
+
+/* 영역은 있지만 안보이게 숨기는 기능 */
+.card:nth-child(2) {
+    /* visibility: hidden; */
+}
+
+/* 뒤에서 1번째 영역 삭제 */
+.card:nth-last-child(1){
+    /* display: none; */
+}
+
+.card:nth-child(even) { /* 홀수는 odd */
+    display: none;
+}
