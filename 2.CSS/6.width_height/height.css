@@ -1,0 +1,21 @@
+.height-default {
+    display: block;
+    border: 1px solid teal;
+}
+
+.height-px {
+    display: block;
+    height: 300px;
+    border: 2px dashed orange;
+}
+
+html, body {
+    /* box-sizing: content-box; */
+    /* height: 100%; */
+    height: 100vh; /* viewport height */
+}
+
+.height-pct {
+    height: 50%;
+    border: 2px dashed tomato;
+}
